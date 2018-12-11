@@ -25,6 +25,24 @@ Route::any('/land','Loginscontroller\Loginscontroller@land');
 //邮箱激活
 Route::any('/youxiang','Loginscontroller\Loginscontroller@youxiang');
 
+//角色
+//角色页面显示
+
+Route::any('/role','Rolecontroller\RoleController@index');
+Route::any('/role_add','Rolecontroller\RoleController@add');
+Route::any('/del2','Rolecontroller\RoleController@del2');
+Route::any('/del1','Rolecontroller\RoleController@del1');
+
+Route::any('/update', function () {
+    return view('Login/Login');
+});
+Route::any('/roleupdate','Rolecontroller\Rolecontroller@update');//修改页面
+Route::any('/roleupdatee','Rolecontroller\Rolecontroller@updatee');//修改
+Route::any('/code','Rolecontroller\Rolecontroller@code');//修改
+
+
+
+
 
 //范志超
 Route::any('/Admin_show','C\ViewController@show');

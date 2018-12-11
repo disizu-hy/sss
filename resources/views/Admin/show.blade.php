@@ -112,6 +112,9 @@
                     <a href="{{url('/user_manager')}}" target="right">用户管理</a>
                 </li>
                 <li>
+                    <a href="{{url('/role')}}" target="right">角色管理</a>
+                </li>
+                <li>
                     <a href="{{url('/adpicture')}}" target="right">轮播图管理</a>
                 </li>
                 <li>
