@@ -76,10 +76,6 @@ class Role extends Model
         imagedestroy($logo);
         return '<img src="qrcode.png" alt="使用微信扫描支付">';
     }
-
-
-
-
 }
 //调用查看结果
 /*echo scerweima1("sss.haoyunyun.cn");*/
